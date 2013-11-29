@@ -1,9 +1,13 @@
-#banner
-{
+#banner{
+	height: 15;
+	width: 20;
 	float:right;
-
+	position:fixed;
 }
-#news_1
-{
+#news_1{
 	clear:left;
+}
+.topImage{
+	width: 1000;
+	height: 160;
 }
