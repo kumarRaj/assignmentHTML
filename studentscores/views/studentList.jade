@@ -1,0 +1,14 @@
+html
+  head
+    title Student List
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    a(href="/add") Add more Students
+    table
+      tr
+        th Name
+        th Score
+      -each student in students
+        tr
+          td #{student.studentName}
+          td #{student.score}
